@@ -1,0 +1,44 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+.space-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.space-vertical > * {
+  margin-bottom: 0;
+}
+
+.login-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.login-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}

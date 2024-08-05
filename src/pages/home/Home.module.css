@@ -1,0 +1,99 @@
+/* src/components/Home/Home.module.css */
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.uploadSection {
+  margin: 20px 0;
+}
+
+.uploadSection input[type='file'] {
+  margin: 10px 0;
+}
+
+.resultSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.squareContainer {
+  width: 300px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0 10px; /* Spacing between squares */
+  overflow: hidden;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.imagePreview img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.outputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.outputContent {
+  text-align: left;
+  margin: 10px;
+}
+
+.visualization {
+  margin-top: 40px;
+}
+
+.visualization button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.visualizationText {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.visualizationImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.visualizationImageContainer {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.visualizationImageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.visualizationLabel {
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.spinner {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}
